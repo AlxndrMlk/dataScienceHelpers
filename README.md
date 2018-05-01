@@ -5,7 +5,7 @@ Quick helper functions for DS applications
   This function was created to deal with numerical columns that contain some unexpected string values. 
   NaNer tries to convert all the values into floats. If any element causes ValueError, NaNer converts this element into np.nan.
   
-  Example usage:
+  Example:
   ```
   >> import pandas as pd
   >> import numpy as np
