@@ -3,4 +3,4 @@ Quick helper functions for DS applications
 
 * ## NaNer
   This function was created to deal with numerical columns that contain some unexpected string values. 
-  NaNer converts all string values into np.nans
+  NaNer tries to convert all the values into floats. If any element causes ValueError, NaNer converts this element into np.nan.
