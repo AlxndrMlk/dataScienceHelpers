@@ -11,7 +11,7 @@ def NaNer(x):
     """
     
     try:
-        x = float(x)
+        float(x)
     except ValueError:
         x = np.nan
         
