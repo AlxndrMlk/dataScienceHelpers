@@ -7,9 +7,9 @@ Quick helper functions for DS applications
   
   Example usage:
   ```
-  [1] your_df['YourColumn'].dtype
-  >> dtype('O')
+  >> your_df['YourColumn'].dtype
+  dtype('O')
   
-  [2] your_df['YourColumn'].transform(NaNer).dtype
-  >> dtype('float64')
+  >> your_df['YourColumn'].transform(NaNer).dtype
+  dtype('float64')
   ```
