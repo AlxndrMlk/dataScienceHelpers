@@ -6,4 +6,10 @@ Quick helper functions for DS applications
   NaNer tries to convert all the values into floats. If any element causes ValueError, NaNer converts this element into np.nan.
   
   Example usage:
-    your_df['YourColumn'].transform(NaNer)
+  ```
+  [1] your_df['YourColumn'].dtype
+  >> dtype('O')
+  
+  [2] your_df['YourColumn'].transform(NaNer).dtype
+  >> dtype('float64')
+  ```
