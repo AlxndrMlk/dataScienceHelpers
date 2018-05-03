@@ -1,5 +1,5 @@
 # Data Science / Machine Learning Helper Functions
-Quick helper functions for DS applications
+Quick helper functions for DS/ML applications
 
 * ## NaNer
   This function was created to deal with numerical columns that contain some unexpected string values. 
