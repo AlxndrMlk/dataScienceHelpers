@@ -4,13 +4,13 @@ def cov_matrix(A, sample=True):
     """
     Input:
     A:             2D-numpy array
-    sample (bool): if true compute sample covariance matrix
-                   if false compute population covariance matrix
+    sample (bool): if True compute sample covariance matrix
+                   if False compute population covariance matrix
     Output:
     Covariance matrix as 2D-numpy array
                    """
     if sample < 0 or sample > 1:
-        raise ValueError('`sample` parameter has to be 0 or 1')
+        raise ValueError('`sample` parameter has to be False, True, 0 or 1')
     
     m = A.shape[0]
     e = np.ones(m)
