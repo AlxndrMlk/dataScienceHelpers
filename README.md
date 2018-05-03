@@ -1,4 +1,4 @@
-# Data Science Helper Functions
+# Data Science / Machine Learning Helper Functions
 Quick helper functions for DS applications
 
 * ## NaNer
