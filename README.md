@@ -28,5 +28,5 @@ Quick helper functions for DS applications
   Name: YourColumn, dtype: float64
   ```
   
-  * ## cov_matrix
+* ## cov_matrix
   Takes a matrix as 2D numpy.array and return covariance matrix. ```cov_matrix(X)``` default result is compatible with MATLAB's /Octave's ```cov(X)``` and ```numpy.cov(X, rowvars=False)```.
