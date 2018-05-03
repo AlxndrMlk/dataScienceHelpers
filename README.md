@@ -6,7 +6,7 @@ Quick helper functions for DS applications
   NaNer tries to convert all the values into floats. If any element causes ValueError, NaNer converts this element into np.nan.
   
   Example:
-  ```
+  ```python
   >> import pandas as pd
   >> import numpy as np
   
@@ -27,3 +27,6 @@ Quick helper functions for DS applications
   8    NaN
   Name: YourColumn, dtype: float64
   ```
+  
+  * ## cov_matrix
+  Takes a matrix as 2D numpy.array and return covariance matrix. ```cov_matrix(X)``` default result is compatible with MATLAB's /Octave's ```cov(X)``` and ```numpy.cov(X, rowvars=False)```.
