@@ -35,6 +35,8 @@ Quick helper functions for DS/ML applications
   Takes two array-likes: 
     * actual labels 
     * predicted probabilities
+    
   and one float:
     * clipper (width of offset from 0 and 1)
+    
   Returns log loss as a float.
