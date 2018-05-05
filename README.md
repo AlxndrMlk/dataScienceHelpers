@@ -40,14 +40,15 @@ Quick helper functions for DS/ML applications
     * clipper (width of offset from 0 and 1)
     
   Returns log loss as a float.
-  
+ 
+ 
   Example:
   ```python
-  >>labels = [1, 0, 1, 1]
+  >> labels = [1, 0, 1, 1]
   
-  >>pred_probs = [0.9, 0.4, 0.2, 0.87]
+  >> pred_probs = [0.9, 0.4, 0.2, 0.87]
 
-  >>get_logloss(labels, pred_probs, clipper=1e-14)
+  >> get_logloss(labels, pred_probs, clipper=1e-14)
 
   0.5912215297978562
   ```
