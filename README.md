@@ -54,5 +54,5 @@ Quick helper functions for DS/ML applications
   ```
   
 * ## multiclass
-  A group of functions to work with multi-class data including ```multi_train_test_split()``` for multiclass stratified splitting.
+  A group of functions to work with multi-class data including ```multilabel_train_test_split()``` for multiclass stratified splitting.
   Code written by **Peter Bull**. Original repo: https://github.com/drivendataorg/box-plots-sklearn/blob/master/src/data/multilabel.py
