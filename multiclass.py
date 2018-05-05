@@ -1,3 +1,6 @@
+# NOTICE: This code has been written by Peter Bull
+# https://github.com/drivendataorg/box-plots-sklearn/blob/master/src/data/multilabel.py
+
 from warnings import warn
 
 import numpy as np
