@@ -54,7 +54,8 @@ Quick helper functions for DS/ML applications
   ```
 * ## get_vif
 
-  A wrapper around ```statsmodels``` ```variance_inflation_factor```
+  A wrapper around ```statsmodels``` ```variance_inflation_factor```.
+  
   Takes a ```pd.DataFrame``` or 2D ```np.array``` and prints variance inflation factor for every variable in the DataFrame / array.
   
 * ## multiclass
