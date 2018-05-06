@@ -2,6 +2,12 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor as vi
 
 def get_vif(X):
     
+    """
+    Takes a pd.DataFrame or 2D np.array
+    and prints Variance Inflation Factor 
+    for every variable.
+    """
+    
     if isinstance(data, pd.DataFrame) == False:
         X = pd.DataFrame(X)
     
