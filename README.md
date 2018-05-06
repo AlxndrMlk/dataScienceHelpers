@@ -52,6 +52,10 @@ Quick helper functions for DS/ML applications
 
   0.5912215297978562
   ```
+* ## get_vif
+
+  A wrapper around ```statsmodels``` ```variance_inflation_factor```
+  Takes a pd.DataFrame or 2D np.array and prints variance inflation factor for every variable in the DataFrame / array.
   
 * ## multiclass
   A group of functions to work with multi-class data including ```multilabel_train_test_split()``` for multiclass stratified splitting.
