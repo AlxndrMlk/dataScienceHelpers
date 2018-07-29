@@ -61,3 +61,8 @@ Quick helper functions for DS/ML applications
 * ## multiclass
   A group of functions to work with multi-class data including ```multilabel_train_test_split()``` for multiclass stratified splitting.
   Code written by **Peter Bull**. Original repo: https://github.com/drivendataorg/box-plots-sklearn/blob/master/src/data/multilabel.py
+  
+* ## plot_class_hist.py
+  In a binary classification setting this function plots two histograms of a given variable grouped by class label, so you can see if a given variable has got a different distribution when splitted by by class label.
+    
+  It is a wrapper around Seaborn's .distplot()
