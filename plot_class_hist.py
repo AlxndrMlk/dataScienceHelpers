@@ -1,7 +1,7 @@
 def plot_class_hist(data, target, feature, kde=False):
     """
     In a binary classification setting this function plots 
-    two histograms of a given variable grouped by class label.
+    two histograms of a given variable grouped by a class label.
     
     It is a wrapper around Seaborn's .distplot()
     
