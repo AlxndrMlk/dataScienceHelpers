@@ -12,6 +12,6 @@ def image_center_crop(img):
 
     h, w, c = img.shape
     
-    cropped_img = img[(h/2 - edge/2):(h/2 + edge/2), (w/2 - edge/2):(w/2 + edge/2 ), :]
+    cropped_img = img[int(h/2 - edge/2):int(h/2 + edge/2), int(w/2 - edge/2):int(w/2 + edge/2 ), :]
     
     return cropped_img
