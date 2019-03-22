@@ -8,8 +8,8 @@ def get_logloss(actual, pred_probs, clipper=1e-14):
     Outputs:
     logloss as a float"""
     
-    if (clipper <= 0) or (clipper >= 1):
-        raise ValueError('`clipper` value has to be > 0 and < 1')
+    if (clipper < 0) or (clipper >= 1):
+        raise ValueError('`clipper` value has to be >= 0 and < 1')
         
     actual = np.array(actual)
     predicted = np.array(pred_probs)
