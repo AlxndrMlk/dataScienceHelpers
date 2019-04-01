@@ -1,7 +1,6 @@
 import numpy as np
 
 def percent_clipper(x, percentiles):
-
   """
   Takes data as np.ndarray and percentiles as array-like
   Returns clipped ndarray
